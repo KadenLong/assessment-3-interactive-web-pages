@@ -1,0 +1,97 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+#google, #friend, #other, #ducks{
+	display: inline;
+}
+
+img {
+	max-width: 300px;
+}
+
+#profile-pic{
+	display: inline-block;
+	height: 150px;
+	margin: 15px;
+	padding: 15px;
+	border: white 2px solid;
+}
+#profile-name{
+	float: left;
+	margin-right: 50px;
+}
+
+#me-section{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	height: auto
+}
+
+div{
+	height: auto;
+	width: 200px;
+	text-align: center;
+	/* text-decoration-line: underline; */
+}
+
+.me-class{
+	text-align: left;
+}
+
+h2{
+	text-decoration-line: underline;
+}
+
+#button-section{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.fav-btns{
+	background-color: orange;
+	padding: 15px 32px;
+	color: white;
+	font-size: 18px;
+	border-radius: 12px;
+	margin: 15px;
+}
+
+.fav-btns:hover{
+	background-color: white;
+	color: orange;
+	border: orange 2px solid;
+	cursor: pointer;
+}

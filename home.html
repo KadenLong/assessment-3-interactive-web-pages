@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+
+	<content>
+		<h1>Hello World.</h1>
+		<!-- insert hello world here -->
+
+		<img src="https://images.unsplash.com/photo-1620447789324-fd300c136721?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+
+		<p>Welcome to this page. This is the rubber duck page. Do not be intimidated. Though understandable, we promise you will be okay here with our friend, the duck.</p>
+		<ul>REMEMBER
+			<li>You are beautiful.</li>
+			<li>You are smart.</li>
+			<li>You are capable.</li>
+			<li>You are a duck now.</li>
+		</ul>
+
+		<h2>Contact Us</h2>
+		<form id="contact">
+			Your name:
+			<input type="text">
+
+			Message:
+			<input type="textarea">
+
+			<input type="submit">
+
+			How did you hear about us?
+			<br/>
+			<label for="google" class="radio-inline">
+				<input type="radio" name="hear-about" value="Google" id="google"/>
+				Google
+			</label>
+				
+
+			<input type="radio" name="hear-about" value="A friend" id="friend"/>
+			<label for="friend">A friend</label>
+
+			<input type="radio" name="hear-about" value="Other" id="other"/>
+			<label for="other">Other...</label>
+
+			<input type="radio" name="hear-about" value="The ducks" id="ducks"/>
+			<label for="ducks">The ducks.</label>
+		</form>
+
+	</content>
+
+
+	<script src="about.js"></script>
+
+</body>
+</html>
